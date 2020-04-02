@@ -27,7 +27,7 @@ void main()
   lcd_GoToLineTwo();
   lcd_DisplayString("Date: ");
  
-   /* Display the Time and Date continously */ 
+   /* Display the time and date continously */ 
    while(1)
     {
 	   /* Read the Time from RTC(ds1307) */ 
